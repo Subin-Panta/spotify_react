@@ -8,7 +8,6 @@ return(
             asdsa        
         </div>
         <div className="mainContent">
-            <h1>Your favourites</h1>
             <Card />
         </div>
 
