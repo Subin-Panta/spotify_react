@@ -1,22 +1,14 @@
 import React from 'react';
-import logo from './logo.svg';
-
 import './App.scss';
+import Nav from './components/Nav';
+import Main from './components/Main';
 
 function App() {
   return (
     <div className="outerWrap">
       <div className="App">
-        <div className="navBar">
-           <div className="logo">
-             <img src={logo}/>
-            </div>
-            <ul>
-              <li>Home</li>
-              <li>Search</li>
-              <li>Your Library</li>
-            </ul> 
-        </div>   
+        <Nav />
+        <Main />
       </div>
       <div className="musicControls">
         music musicControls
