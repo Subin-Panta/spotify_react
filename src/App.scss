@@ -87,7 +87,7 @@ body{
   align-items:center;
   justify-content: center;
   color:white;
-  z-index: 2;
+  z-index: 3;
   position: relative;
 }
 
@@ -104,8 +104,11 @@ body{
    display:flex;
    align-items:center;
    padding: 0.5rem 2rem;
+   position: relative;
+   z-index: 2;
  }
  .main{
+   overflow-y: scroll;
    width:100%;
    .mainContent{
      color:white;
@@ -117,6 +120,7 @@ body{
  }
  .cardsWrap{
    .card{
+     margin-right: 1rem;
      background: $greyLighter;
      border-radius: 10px;
      width:190px;
@@ -164,4 +168,7 @@ body{
   svg {
     margin: auto;
   }
+}
+.Trendings{
+  display:flex;
 }
